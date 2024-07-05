@@ -125,7 +125,8 @@ Conditional Statements (if-else)
 Conditional statements, such as if-else, are used to make decisions based on conditions. Here's a basic example:
  code
 
-# Example of an if-else statement
+Example of an if-else statement
+
 x = 10
 
 if x > 0:
@@ -148,9 +149,8 @@ Loops are used to repeat a block of code multiple times. The for loop is particu
 
 Here’s an example of a for loop:
 
- code
-
-# Example of a for loop
+Example of a for loop
+code
 fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
@@ -219,11 +219,11 @@ Example Script Demonstrating Basic Operations
 Here's a Python script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both:
 
  code
-# Create a list of numbers
+Create a list of numbers
 
 numbers = [1, 2, 3, 4, 5]
 
-# Create a dictionary with key-value pairs
+Create a dictionary with key-value pairs
 
 person = {
     "name": "pauline",
@@ -231,13 +231,13 @@ person = {
     "city": "kitui"
 }
 
-# Print the original list and dictionary
+Print the original list and dictionary
 
 print("Original list of numbers:", numbers)
 
 print("Original dictionary:", person)
 
-# Accessing elements:
+Accessing elements:
 
 print("\nAccessing elements:")
 
@@ -245,7 +245,7 @@ print("First element of the list:", numbers[0])
 
 print("Age of the person:", person["age"])
 
-# Modifying elements:
+Modifying elements:
 
 numbers[2] = 10
 
@@ -257,7 +257,7 @@ print("Modified list of numbers:", numbers)
 
 print("Modified dictionary:", person)
 
-# Adding elements:
+Adding elements:
 
 numbers.append(6)
 
@@ -269,7 +269,8 @@ print("Updated list of numbers:", numbers)
 
 print("Updated dictionary:", person)
 
-# Deleting elements:
+Deleting elements:
+
 del numbers[1]
 removed_city = person.pop("city")
 
@@ -324,7 +325,8 @@ def divide(a, b):
 
     return result
 
-# Example Usage
+Example Usage
+
 
 print(divide(10, 2))  # Output: 5.0
 
@@ -414,15 +416,18 @@ code
 
 import math
 
-# Calculate the square root of 25
+Calculate the square root of 25
+
 sqrt_result = math.sqrt(25)
 print(f"The square root of 25 is: {sqrt_result}")  # Output: The square root of 25 is: 5.0
 
-# Calculate the sine of pi/2
+Calculate the sine of pi/2
+
 sine_result = math.sin(math.pi / 2)
 print(f"The sine of pi/2 is: {sine_result}")  # Output: The sine of pi/2 is: 1.0
 
-# Use the math constant pi
+ Use the math constant pi
+
 circle_area = math.pi * (5 ** 2)
 print(f"The area of a circle with radius 5 is: {circle_area}")  # Output: The area of a circle with radius 5 is: 78.53981633974483
 In this example:
@@ -441,7 +446,9 @@ To read the contents of a file in Python, you can use the open() function along 
 Example: Reading from a File
 
 code
-# Reading the entire content of a file and printing it to the console
+
+Reading the entire content of a file and printing it to the console
+
 with open('output.txt', 'r') as file:
     content = file.read()
     print(content)
@@ -451,7 +458,9 @@ To write to a file in Python, you can also use the open() function with modes li
 Example: Writing a List of Strings to a File
 
 code
-# Writing a list of strings to a file
+
+ Writing a list of strings to a file
+
 lines = ["Line 1", "Line 2", "Line 3"]
 
 with open('output.txt', 'w') as file:
@@ -459,7 +468,8 @@ with open('output.txt', 'w') as file:
         file.write(line + "\n")
 
 
-# Submission Guidelines:
+Submission Guidelines:
+
 - Your answers should be well-structured, concise, and to the point.
 - Provide code snippets or complete scripts where applicable.
 - Cite any references or sources you use in your answers.
